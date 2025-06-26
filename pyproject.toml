@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gta5-vehicles-api"
+version = "0.1.0"
+description = ""
+authors = ["lcpires7 <lcpires7.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gta5_vehicles_api", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
